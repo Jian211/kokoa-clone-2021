@@ -1,0 +1,16 @@
+.icon-row {
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+}
+
+.icon-row__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.find-icons__icon i{
+    font-size: 30px;
+}

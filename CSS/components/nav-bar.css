@@ -1,0 +1,54 @@
+.nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f9fa;
+    padding: 20px 0;
+    border-top: 0.6px solid rgba(0,0,0,0.2);
+}
+.nav__list {
+    display: flex;
+    justify-content: space-around;
+}
+.nav__link {
+    position: relative;
+    color: #2e363e;
+}
+@keyframes notificationAnimation{
+    0%{
+        transform: none;
+    }50%{
+        transform: translateY(-5px)
+    }100%{
+        transform: none;
+    }
+}
+
+.nav__notification {
+    position: absolute;
+    right: -14px;
+    top: -18px;
+    animation: notificationAnimation 0.8s ease-in-out infinite;
+}
+
+.nav__notification--redpoint{
+    width: 6px;
+    height: 6px;
+    background-color: tomato;
+    border-radius: 50%;
+}
+.nav__notification1{
+    display: flex;
+    right: -8px;
+    position: absolute;
+}
+
+.screen-header__notification{
+    position: relative;
+}
+.nav__notification--position{
+    position: absolute;
+    top: -6px;
+    left: -4px;
+    
+}

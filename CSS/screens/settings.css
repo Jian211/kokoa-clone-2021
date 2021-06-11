@@ -1,0 +1,22 @@
+.settings__setting {
+    padding: 20px 0 ;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.settings__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.settings__sign{
+    position: absolute;
+    right: 12px;
+    opacity: 0.6;
+}
